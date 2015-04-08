@@ -1,3 +1,4 @@
+#!/bin/bash
 echo 'Please input the war dir'
 read war_dir
 grep -ra "/psb/data" $war_dir | awk -F: '{print $1}' | uniq > /tmp/psb_log_dir.txt 
