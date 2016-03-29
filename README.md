@@ -1,2 +1,2 @@
 # My-shell-script
-test
+test status
